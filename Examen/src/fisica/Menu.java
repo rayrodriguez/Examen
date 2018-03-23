@@ -33,7 +33,7 @@ public class Menu extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent e) {
     	Container f=this.getContentPane();
     	setLayout(new BoxLayout(f, BoxLayout.Y_AXIS));
-		setSize(400,400);
+		setSize(500,500);
         if (e.getSource()==mi1) {
         	velocidad = new Velocidad();
         	f.add(velocidad);
